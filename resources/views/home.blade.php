@@ -6,14 +6,33 @@
     <meta name="viewport" content="width=device-width , intial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>My First Project</title>
-    <link rel="stylesheet" href="{{asset('css/style.css')}}">
-    <link rel="stylesheet" href="{{asset('fontawesome/css/all.css')}}">
-    <link rel="stylesheet" href="{{asset('bootstrap/css/bootstrap.css')}}">
-
+    <link rel="stylesheet" href="{{ asset('site/bootstrap/css/bootstrap.css') }}">
+    <link rel="stylesheet" href="{{ asset('site/fontawesome/css/all.css') }}">
+    <link rel="stylesheet" href="{{ asset('site/css/style.css') }}">
 </head>
 
 <body>
     <!-- Navbar starts from here -->
+    <section id="top-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-6 col-sm-12 col-12 text-center text-lg-left">
+                    <div class="header-contact">
+                        <i class="fas fa-location-arrow"></i> pokhara -8, srijana chowk &nbsp;&nbsp;&nbsp;
+                        <i class="fas fa-phone"></i> 098-7654321
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-hidden-sm">
+                    <div class="header-icon">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <section id="navbar">
         <nav class="navbar navbar-expand-lg ">
             <a class="navbar-brand" href="#">My Own Site</a>
@@ -55,13 +74,13 @@
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="d-block w-100" src="{{asset('image/logo.jpg')}}" alt="First slide" height="700px">
+                    <img class="d-block w-100" src="{{asset('site/image/slider1.jpg')}}" alt="First slide" height="700px">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="..." alt="Second slide">
+                    <img class="d-block w-100" src="{{asset('site/image/slider2.jpg')}}" alt="Second slide">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="..." alt="Third slide">
+                    <img class="d-block w-100" src="{{asset('site/image/slider3.jpg')}}" alt="Third slide">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -82,5 +101,7 @@
 <script>
     $('.carousel').carousel()
 </script>
-<script src="{{asset('fontawesome/js/all.js')}}"></script>
-<script src="{{asset('bootstrap/js/bootstrap.js')}}"></script>
+<script src="{{ asset('site/js/jquery.js') }}"></script>
+<script src="{{ asset('site/bootstrap/js/bootstrap.js') }}"></script>
+<script src="{{ asset('site/fontawesome/js/all.js') }}"></script>
+<script src="{{ asset('site/js/script.js') }}"></script>

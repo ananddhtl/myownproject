@@ -24,7 +24,7 @@
   font-size: 20px;
   
 }
-/* #navbar{
+#navbar{
   background-color: white;
   height: 75px;
 }
@@ -102,7 +102,7 @@
   word-spacing: 20px;
   text-align: right;
 } */
-/* #top-header .header-icon a{
+ #top-header .header-icon a{
   color: white;
   padding: 2px;
   border-radius: 50%;
@@ -111,4 +111,4 @@
 }
 #top-header .header-icon a:hover{
   color: var(--s-color);
-} */
+}
