@@ -8,7 +8,7 @@
     <title>My First Project</title>
     <link rel="stylesheet" href="{{ asset('site/bootstrap/css/bootstrap.css') }}">
     <link rel="stylesheet" href="{{ asset('site/fontawesome/css/all.css') }}">
-    <link rel="stylesheet" href="{{ asset('site/css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 </head>
 
 <body>
@@ -48,8 +48,16 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">About</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Blog</a>
@@ -74,7 +82,7 @@
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="d-block w-100" src="{{asset('site/image/slider1.jpg')}}" alt="First slide" height="700px">
+                    <img class="d-block w-100" src="{{asset('site/image/slider1.jpg')}}" alt="First slide">
                 </div>
                 <div class="carousel-item">
                     <img class="d-block w-100" src="{{asset('site/image/slider2.jpg')}}" alt="Second slide">
@@ -95,6 +103,40 @@
 
     </section>
     <!-- slider section ends here -->
+    <!-- about us section start  here -->
+    <section id="aboutus">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="about-us-title">
+                        <h1>About us </h1>
+                        <h2>Who we are? </h2>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="about-image">
+                        <img src="{{asset('image/bg.jpg')}}" height="500px" width="400px">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="about-description">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Enim dignissimos unde voluptas distinctio officia nobis ut quae suscipit.
+                            Ad officiis aperiam sunt dolorem facilis. Illo, amet ipsam? Voluptates,
+                            inventore eius?
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- about us section ends  here -->
+
 </body>
 
 </html>

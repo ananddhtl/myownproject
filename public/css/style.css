@@ -112,3 +112,23 @@
 #top-header .header-icon a:hover{
   color: var(--s-color);
 }
+#aboutus{
+  background-color: rosybrown;
+}
+#aboutus .about-us-title{
+  margin-top: 20px;
+  font-size: 15px;
+  font-family:  Georgia, 'Times New Roman', Times, serif;
+  font-weight: 30px;
+  text-align: center;
+}
+#aboutus .about-description{
+  margin-top: 40px;
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#aboutus .about-image{
+  margin-top: 40px;
+  
+  
+}
