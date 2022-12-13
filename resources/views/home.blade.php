@@ -35,7 +35,7 @@
     </section>
     <section id="navbar">
         <nav class="navbar navbar-expand-lg ">
-            <a class="navbar-brand" href="#">My Own Site</a>
+            <a style="color:black" class="navbar-brand" href="#">My Own Site</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -128,10 +128,86 @@
                             Enim dignissimos unde voluptas distinctio officia nobis ut quae suscipit.
                             Ad officiis aperiam sunt dolorem facilis. Illo, amet ipsam? Voluptates,
                             inventore eius?
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Enim dignissimos unde voluptas distinctio officia nobis ut quae suscipit.
+                            Ad officiis aperiam sunt dolorem facilis. Illo, amet ipsam? Voluptates,
+                            inventore eius?
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Enim dignissimos unde voluptas distinctio officia nobis ut quae suscipit.
+                            Ad officiis aperiam sunt dolorem facilis. Illo, amet ipsam? Voluptates,
+                            inventore eius?
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Enim dignissimos unde voluptas distinctio officia nobis ut quae suscipit.
+                            Ad officiis aperiam sunt dolorem facilis. Illo, amet ipsam? Voluptates,
+                            inventore eius?
                         </p>
                     </div>
                 </div>
 
+            </div>
+        </div>
+    </section>
+    <section id="service">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="service-title">
+                        <h1>Service </h1>
+                        <h2>Services we provide </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="service-box">
+                        <i id="icon" class="fa-solid fa-house"></i>
+                        <h3>Web Development </h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque est dolore quibusdam recusandae nihil quia ad corporis amet odio molestiae assumenda laudantium ut sit dolorum, id placeat ipsam asperiores modi?</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+
+                    <div class="service-box">
+                        <i id="icon" class="fa-solid fa-user"></i>
+                        <h3>Machine Learning</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque est dolore quibusdam recusandae nihil quia ad corporis amet odio molestiae assumenda laudantium ut sit dolorum, id placeat ipsam asperiores modi?</p>
+
+                    </div>
+                </div>
+                <div class="col-md-4">
+
+                    <div class="service-box">
+                        <i id="icon" class="fa-solid fa-user"></i>
+                        <h3>Mobile Development </h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque est dolore quibusdam recusandae nihil quia ad corporis amet odio molestiae assumenda laudantium ut sit dolorum, id placeat ipsam asperiores modi?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="service-box">
+                        <i id="icon" class="fa-solid fa-house"></i>
+                        <h3>Web Development </h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque est dolore quibusdam recusandae nihil quia ad corporis amet odio molestiae assumenda laudantium ut sit dolorum, id placeat ipsam asperiores modi?</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+
+                    <div class="service-box">
+                        <i id="icon" class="fa-solid fa-user"></i>
+                        <h3>Machine Learning</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque est dolore quibusdam recusandae nihil quia ad corporis amet odio molestiae assumenda laudantium ut sit dolorum, id placeat ipsam asperiores modi?</p>
+
+                    </div>
+                </div>
+                <div class="col-md-4">
+
+                    <div class="service-box">
+                        <i id="icon" class="fa-solid fa-user"></i>
+                        <h3>Mobile Development </h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque est dolore quibusdam recusandae nihil quia ad corporis amet odio molestiae assumenda laudantium ut sit dolorum, id placeat ipsam asperiores modi?</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
