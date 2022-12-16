@@ -261,7 +261,89 @@
             </div>
         </div>
     </section>
-    <!---our classes section starts here--->
+    <!---our classes section ends here--->
+    <!---contact  section starts here--->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="contact-title">
+                        <h1>Contact Us </h1>
+                        <h2>Feel Free to Contact!</h2>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="contact-box">
+                        <i id="icon" class="fa-solid fa-location-dot"></i>
+                        <h4>Location</h4>
+                        <p>Chauthe 14 Pokhara</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="contact-box">
+                        <i id="icon" class="fa-solid fa-phone"></i>
+                        <h4>Contact Number</h4>
+                        <p>+977-98765432123</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="contact-box">
+                        <i id="icon" class="fa-solid fa-message"></i>
+                        <h4>Email</h4>
+                        <p>test@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-md-12">
+                    <form action="" method="">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+
+                                    <input type="" id="" name="" class="form-control" placeholder="Full Name">
+
+                                </div>
+                                <div class="form-group">
+
+                                    <input type="" id="" name="" class="form-control" placeholder="Email">
+
+                                </div>
+
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+
+                                    <input type="" id="" name="" class="form-control" placeholder="Subject">
+
+                                </div>
+                                <div class="form-group">
+
+                                    <textarea style="height:200px;" class="form-control" placeholder="Message"></textarea>
+
+                                </div>
+                                <div class="col-md-12 text-center mt-6">
+                                    <div class="form-group">
+                                        <label for=""></label>
+                                        <button class="btn">Submit</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </form>
+
+                </div>
+            </div>
+        </div>
+      
+
+    </section>
+    <!---contact section section ends here--->
+
 
 </body>
 
