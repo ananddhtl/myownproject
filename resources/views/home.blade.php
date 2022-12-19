@@ -45,16 +45,16 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav text-center ml-auto">
                         <li class="nav-item ">
-                            <a class="nav-link" href="">Home</a>
+                            <a class="nav-link" href="/">Home</a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link" href="">About</a>
+                            <a class="nav-link" href="{{asset('/about')}}">About</a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link" href="">Service</a>
+                            <a class="nav-link" href="/service">Service</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="/classes" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
                                 Our Classes
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -64,7 +64,7 @@
                             </div>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link" href="">Contact</a>
+                            <a class="nav-link" href="/contact">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -339,10 +339,58 @@
                 </div>
             </div>
         </div>
-      
-
     </section>
     <!---contact section section ends here--->
+    <!---footer section section starts here--->
+    <section class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="footer-a">
+                        <a>My own Website</a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut modi voluptates minima consequatur fugiat. Nam nisi distinctio ipsa repellendus omnis repellat quasi soluta velit ipsum ullam, recusandae quam laudantium explicabo? </p>
+
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="links">
+                        <h4>Links</h4>
+                        <ul>
+                            <li><a  href="">Home</a></li>
+                            <li><a  href="">About</a></li>
+                            <li><a  href="">Service</a></li>
+                            <li><a  href="">Our Classes</a></li>
+                            <li><a  href="">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="links">
+                        <h4>Classes</h4>
+                        <ul>
+                            <li><a>Web Development</a></li>
+                            <li><a>Mobile Development</a></li>
+                            <li><a>SEO Marketing</a></li>
+                         
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="footer-contact">
+                        <h4>Contact</h4>
+                        <p><i  id="icon" class=" fas fa-location"></i>Chauthe</p>
+                        <p><i  id="icon"class=" fas fa-phone"></i>9870000000</p>
+                        <p><i  id="icon"class=" fas fa-message"></i>info@test.com</p>
+                       
+                    </div>
+                </div>
+            </div>
+            <div  class=" col-md-12 text-center">
+                <a style="color:black; "href="https://www.anandadhital.com.np/" target="_blank">Copyright &copy; Developed by Ananda Dhital</a>
+            </div>
+        </div>
+    </section>
+    <!---footer section section ends here--->
 
 
 </body>

@@ -376,3 +376,64 @@ text-transform: capitalize;
   margin-top: 40px;
 
 }
+.footer{
+ background-color: aliceblue;
+ color: black;
+ padding: 40px 0;
+}
+.footer .footer-a a{
+  font-weight: bold;
+  font-size: 30px;
+  letter-spacing: 1px;
+  color: var(--skin-color);
+  text-decoration: none;
+}
+.footer .footer-about{
+  float: left;
+}
+.footer .footer-about p{
+  text-align: left;
+  font-size: 14px;
+}
+.footer .links h4{
+  border-bottom: 2px solid black;
+ 
+  font-size: 30px;
+  text-transform: capitalize;
+  color:var(--skin-color);
+  
+}
+.footer .links ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  
+}
+.footer .links ul li a{
+ font-size: 20px;
+ color:black;
+}
+.footer .links ul li a:hover{
+  color: var(--skin-color);
+}
+.footer .footer-contact h4{
+  font-size: 30px;
+  color: var(--skin-color);
+  text-transform: capitalize;
+  border-bottom: 2px solid black;
+}
+.footer .footer-contact #icon{
+  font-size: 30px;
+ 
+  padding: 5px;
+  border-radius: 50%;
+  transition: 1s;
+  margin-bottom: -10px;
+  font-weight: bold;
+  text-align: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+.footer .footer-contact p{
+  
+}
